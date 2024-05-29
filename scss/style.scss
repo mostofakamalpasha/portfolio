@@ -1,1 +1,22 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+//import fundamentals
+@import "fundamentals/color";
+@import "fundamentals/typography";
+@import "fundamentals/variables";
+
+//import components
+@import "components/buttons";
+@import "components/mixins";
+@import "components/animations";
+
+// import sections
+
+@import "sections/navbar";
+@import "sections/intro-section";
+@import "sections/companies";
+@import "sections/testimonial";
+@import "sections/faq";
+@import "sections/portfolio";
+@import "sections/contact-form";
+@import "sections/footer";
