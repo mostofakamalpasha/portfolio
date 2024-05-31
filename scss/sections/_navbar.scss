@@ -1,5 +1,14 @@
-@import "../fundamentals/color";
+@use "../custom" as custom;
+@use "../components/mixins" as mixin;
 
 nav {
-  background-color: $primary;
+  @include gradient;
+  li {
+    padding: 0 0.7rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    a {
+      color: $white !important;
+    }
+  }
 }

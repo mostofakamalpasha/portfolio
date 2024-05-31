@@ -1,0 +1,9 @@
+// Gradient mixin
+
+@mixin gradient {
+  background: linear-gradient(
+    to right,
+    rgba($primary, 0.5),
+    rgba($secondary, 0.95)
+  );
+}
